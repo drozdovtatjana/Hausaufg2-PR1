@@ -33,7 +33,7 @@ public class u3_8 {
         String[] gefilterteWorter = new String[neueGrose];  // creating new array with size of length (of quantity words we needed  )
         int index = 0;
         for (String wort : worter) {  // new variable wort, for each word if it is longer than K
-            if (wort.length() >=k) {
+            if (wort.length() >k) {
                 gefilterteWorter[index] = wort;  // adds word to current index(start position is 0, after we are changing index
                 index++; // index is incremented so that the next word (if any) will be assigned to the next position in the gefilterteWorter array
             }

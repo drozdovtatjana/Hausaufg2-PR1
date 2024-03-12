@@ -16,6 +16,8 @@
 //Testen Sie Ihre Klasse in einer main.
 
 
+import java.util.Arrays;
+
 public class u4_4 {
     static int anzahlBesetzt;
 
@@ -67,7 +69,6 @@ public class u4_4 {
 
     public static Boolean Ausgebucht() {
             return anzahlBesetzt >= bettenProStockwerk * stockwerke;
-
         }
 
     @Override

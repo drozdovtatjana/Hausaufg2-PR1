@@ -55,7 +55,7 @@ public class u4_4 {
 
     public static int preisProBuchung(int bettenGebucht) {
 
-        return (int) (bettenGebucht* preisProBett());
+        return (int) (bettenGebucht * preisProBett());
     }
 
     public void bucheBetten(int betten) {
@@ -68,8 +68,8 @@ public class u4_4 {
     }
 
     public static Boolean Ausgebucht() {
-            return anzahlBesetzt >= bettenProStockwerk * stockwerke;
-        }
+        return anzahlBesetzt >= bettenProStockwerk * stockwerke;
+    }
 
     @Override
     public String toString() {

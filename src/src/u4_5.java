@@ -101,6 +101,7 @@ public class u4_5 {
             return -1.0;
         }
     }
+
     public double wochendurchschnitt() {
         // Initialize the sum of measurements and the count of non-zero measurements
         double summe = 0.0;
@@ -111,7 +112,7 @@ public class u4_5 {
             // Iterate over each measurement value for the current day
             for (double messwert : tagMessungen) {
                 // Check if the measurement value is non-zero
-                if (messwert != 0.0) {
+                if (messwert != 0) {
                     // If non-zero, add the measurement value to the sum
                     summe += messwert;
                     // Increment the count of non-zero measurements

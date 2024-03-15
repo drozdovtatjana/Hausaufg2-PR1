@@ -1,6 +1,6 @@
 public class u4_5main {
     public static void main(String[] args) {
-       u4_5 messungen = new u4_5(new double[7][3], 1);
+        u4_5 messungen = new u4_5(new double[7][3], 1);
 
         messungen.messungAmTag("Montag", 25.5);
         messungen.messungAmTag("Montag", 26.0);
